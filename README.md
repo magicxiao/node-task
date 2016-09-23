@@ -1,2 +1,2 @@
 # node-task
-task manage framewrok
+task manage framework
