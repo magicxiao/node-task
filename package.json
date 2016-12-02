@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-task",
+  "description": "node task",
+  "version": "0.0.1",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {
+    "should": "^4.3.0"
+  },
+  "repository": {
+  	"type": "git"
+  , "url" : "git@github.com:magicxiao/node-task.git"
+  },
+  "license": "(MIT OR Apache-2.0)"
+}

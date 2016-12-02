@@ -2,8 +2,10 @@ function worker(argument) {
   this.locked = false;
 }
 
+// scan
 worker.prototype.scan = function() {
-  return if this.locked
+  if (this.locked)
+    return 
 
   // get task for running
   // 
@@ -11,7 +13,8 @@ worker.prototype.scan = function() {
 
 // run task
 worker.prototype.run = function() {
-  return if this.locked
+  if (this.locked)
+    return 
 
   // get task for running
   // 
@@ -19,8 +22,8 @@ worker.prototype.run = function() {
 
 // funish task
 worker.prototype.finish = function() {
-  return if this.locked
-
+  if (this.locked)
+    return 
   // get task for running
   // 
 }
