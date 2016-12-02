@@ -1,2 +1,3 @@
 // init scripts
-mysql = require 'mysql'
+mysql  = require 'mysql'
+config = require './config'
