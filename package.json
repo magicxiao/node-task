@@ -3,6 +3,7 @@
   "description": "node task",
   "version": "0.0.2",
   "dependencies": {
+    "cron": "^1.1.1",
     "lodash": "^4.17.2",
     "mysql": "^2.12.0"
   },
