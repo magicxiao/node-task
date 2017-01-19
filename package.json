@@ -14,5 +14,8 @@
     "type": "git",
     "url": "git@github.com:magicxiao/node-task.git"
   },
-  "license": "(MIT OR Apache-2.0)"
+  "license": "(MIT OR Apache-2.0)",
+  "scripts": {
+    "setup": "node ./lib/init.js"
+  }
 }
